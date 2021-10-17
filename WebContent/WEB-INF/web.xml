@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://java.sun.com/xml/ns/javaee"
+ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+ id="WebApp_ID" version="2.5" >
+	<servlet>
+		<servlet-name>InputRecords</servlet-name>
+		<servlet-class>work.InputRecords</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InputRecords</servlet-name>
+		<url-pattern>/InputRecords</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SaveRecords</servlet-name>
+		<servlet-class>work.SaveRecords</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveRecords</servlet-name>
+		<url-pattern>/SaveRecords</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ShowAllRecords</servlet-name>
+		<servlet-class>work.ShowAllRecords</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ShowAllRecords</servlet-name>
+		<url-pattern>/ShowAllRecords</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>work.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ExecuteLogin</servlet-name>
+		<servlet-class>work.ExecuteLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExecuteLogin</servlet-name>
+		<url-pattern>/ExecuteLogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ExecuteLogout</servlet-name>
+		<servlet-class>work.ExecuteLogout</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ExecuteLogout</servlet-name>
+		<url-pattern>/ExecuteLogout</url-pattern>
+	</servlet-mapping>
+</web-app>
+
